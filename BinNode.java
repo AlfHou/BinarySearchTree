@@ -1,3 +1,4 @@
+//TODO: Translate all comments and variables to english.
 class BinNode {
     int data;
     BinNode venstre;
@@ -25,6 +26,7 @@ class BinNode {
         //Siden data er definert som int holder det å bruke < operatøren for å sammenligne
         //Kan ikke legge til et element som allerede er i treet
         if (data == this.data) {
+            //TODO: Remove all return statements and change all if statements in method to else if statements
             return;
         }
         //node er større enn noden vi er i og høyre pekeren IKKE er null, rekursivt kall til høyre

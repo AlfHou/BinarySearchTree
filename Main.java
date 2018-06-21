@@ -1,12 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        BinNode rotNode = new BinNode(2);
-        rotNode.add(4);
-        rotNode.add(1);
-        rotNode.add(1);
-        rotNode.add(200);
-        rotNode.add(-3);
+        BinTree tree = new BinTree();
+        tree.add(4);
+        tree.add(1);
+        tree.add(1);
+        tree.add(200);
+        tree.add(-3);
+        tree.add(80);
         
-        System.out.println(rotNode.number());
+        System.out.println(tree.number());
     }
 }

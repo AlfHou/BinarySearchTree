@@ -19,4 +19,9 @@ public class BinTree {
             return root.number();
         }
     }
+    public int sum() {
+        int sum = 0;
+        sum += root.sum();
+        return sum;
+    }
 }

@@ -39,4 +39,14 @@ class BinNode {
             left = new BinNode(data);
         }
     }
+    public int sum() {
+        int sum = data;
+        if (left != null) {
+            sum += left.sum();
+        }
+        if (right != null) {
+            sum += right.sum();
+        }
+        return sum;
+    }
 }

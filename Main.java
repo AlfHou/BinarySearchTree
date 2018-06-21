@@ -8,6 +8,8 @@ public class Main {
         tree.add(-3);
         tree.add(80);
         
-        System.out.println(tree.number());
+        System.out.printf("Number of nodes: %d\n", tree.number());
+        System.out.printf("Sum of all nodes: %d\n", tree.sum());
+
     }
 }
